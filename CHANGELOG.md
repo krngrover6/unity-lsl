@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-10-30)
 - First version: official liblsl C# wrapper (`LSL.cs`, liblsl-Csharp commit `520c23c18e`), package skeleton,
   licenses.
 - liblsl 1.17.7 native libraries: Android arm64-v8a and macOS universal built from source
