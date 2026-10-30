@@ -1,0 +1,18 @@
+{
+  "name": "com.karangrover.lsl",
+  "version": "0.1.0",
+  "displayName": "LSL (Lab Streaming Layer)",
+  "description": "Lab Streaming Layer for Unity: the official liblsl C# wrapper, liblsl 1.17.7 for Android arm64 (Meta Quest), macOS (universal) and Windows x64, plus a small Unity layer (outlets, inlet found by name with retry, main-thread pull, local clock, Android multicast lock).",
+  "unity": "2022.3",
+  "author": {
+    "name": "Karan Grover"
+  },
+  "license": "MIT",
+  "keywords": [
+    "lsl",
+    "lab streaming layer",
+    "eeg",
+    "bci",
+    "quest"
+  ]
+}
