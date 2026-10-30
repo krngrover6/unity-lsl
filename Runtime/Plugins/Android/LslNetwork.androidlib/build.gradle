@@ -1,0 +1,22 @@
+// Android library holding only LSL's network permissions (AndroidManifest.xml). The namespace is required by the
+// Android Gradle Plugin 8+; Unity does not generate one for .androidlib folders.
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.karangrover.lsl.network'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 29
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+}
