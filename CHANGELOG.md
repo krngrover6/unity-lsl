@@ -8,5 +8,8 @@
 - Unity layer: `LslSession` (outlets, inlet found by name in the background with optional retry), `LslOutlet`,
   `LslInlet` (non-blocking pulls, clock sync), `LslLibrary` (clock, version, config), `LslSettings` (KnownPeers,
   IPv6, scope, session ID; or `lsl_api.cfg` in persistentDataPath), `LslRuntime` (Android Wi-Fi multicast lock).
+- Tested (30 Oct 2026): Mac editor + macOS player, and Meta Quest 3 standalone (Android 14, IL2CPP ARM64) on home
+  Wi-Fi with pylsl 1.18 on the Mac: markers + motion received on the Mac, attention received on the Quest with
+  clock sync (20-40 ms age), multicast lock held.
 - Android: `LslNetwork.androidlib` with INTERNET, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE, CHANGE_WIFI_MULTICAST_STATE.
 - README.
